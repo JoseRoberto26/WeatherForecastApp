@@ -9,8 +9,27 @@
   flex-direction: column;
   background-color: #39a3db;
   align-items: center;
+  height: 40vh;
+  justify-content: center;
+}
+
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
   height: 60vh;
   justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+.card-item{
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 35%;
+  height: 30%;
+  margin: 10px;
 }
 
 .search-input{
