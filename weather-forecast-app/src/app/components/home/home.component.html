@@ -1,0 +1,19 @@
+<div class="main-container">
+
+  <div class="input-container">
+    <h2 class="search-title">WEATHER IN YOUR CITY</h2>
+    <div class="input-box">
+      <input [ngModel]="searchInput" (ngModelChange)="valueChange($event)" type="text" placeholder="Your city name" class="search-input" >
+      <img src="./assets/icon.png" srcset="img/icon@2x.png 2x, img/icon@3x.png 3x" class="icon" (click)="search()">
+    </div>
+  </div>
+
+  <div class="cards-container">
+
+    <div *ngFor="let city of cities">
+      <app-city-card></app-city-card>
+    </div>
+
+  </div>
+
+</div>
