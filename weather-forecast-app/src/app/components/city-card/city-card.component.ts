@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-city-card',
@@ -8,6 +9,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CityCardComponent implements OnInit {
 
   @Input() cityName;
+  @Input() cityId;
   @Input() countryCode;
   @Input() maxTemp;
   @Input() minTemp;
@@ -15,7 +17,7 @@ export class CityCardComponent implements OnInit {
 @Input() iconCode;
 @Input() weatherText;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
@@ -27,6 +29,10 @@ export class CityCardComponent implements OnInit {
   fixTemp(temp){
     temp = Math.round(temp * 10) / 10;
     return temp;
+  }
+
+  seeDetails(){
+    this.router.navigate(['/details/', this.cityId]);
   }
 
 }

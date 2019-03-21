@@ -10,9 +10,9 @@
 
   <div class="cards-container">
 
-    <div class="card-item" *ngIf="!showDetails" >
-      <app-city-card *ngFor="let city of cities" (click)="seeDetails()" [temp]="city.main.temp" [weatherText]="city.weather[0].description"
-                     [iconCode]="city.weather[0].icon"
+    <div class="card-item" >
+      <app-city-card *ngFor="let city of cities" [temp]="city.main.temp" [weatherText]="city.weather[0].description"
+                     [iconCode]="city.weather[0].icon" [cityId]="city.id"
                      [cityName]="city.name" [countryCode]="city.sys.country"
                      [maxTemp]="city.main.temp_max" [minTemp]="city.main.temp_min"></app-city-card>
     </div>

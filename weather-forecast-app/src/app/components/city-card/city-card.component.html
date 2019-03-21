@@ -1,10 +1,10 @@
-<div class="card-container">
+<div class="card-container" (click)="seeDetails()">
   <div class="temperature-box">
     <h1 class="temperature-txt">{{fixTemp(this.temp)}} ºC</h1>
   </div>
   <div class="info-box">
     <div class="city-title">
-      <h1 class="city-title-text">{{this.cityName}}</h1>
+      <h1 class="city-title-text">{{this.cityName}}, {{this.countryCode}}</h1>
       <img class="flag" src="http://openweathermap.org/images/flags/{{this.lowercase(this.countryCode)}}.png">
     </div>
     <div class="max-min-logo">

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {SearchServiceService} from "../../service/search-service.service";
+import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
   selector: 'app-home',
@@ -10,27 +11,32 @@ export class HomeComponent implements OnInit {
 
   public cities;
   public searchInput;
-  public showDetails;
+  public urlParam;
 
-  constructor(private searchService: SearchServiceService) { }
+  constructor(private searchService: SearchServiceService, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
     this.searchInput = ''
-    this.showDetails = false;
+    this.activatedRoute.queryParams.subscribe(params => {
+      this.urlParam = params['q'];
+      console.log(this.urlParam);
+      if(this.urlParam != undefined && this.urlParam != ''){
+        console.log("entrou");
+        console.log(this.urlParam);
+        this.searchInput = this.urlParam;
+        this.search();
+      }
+    })
+
+
   }
 
   valueChange(value){
     this.searchInput = value;
   }
 
-  seeDetails(){
-    this.showDetails = true;
-  }
-
-
   public search(){
     let input = this.searchInput;
-    this.showDetails = false;
     if(input.length < 3){
       console.log("Need bigger input");
       return;

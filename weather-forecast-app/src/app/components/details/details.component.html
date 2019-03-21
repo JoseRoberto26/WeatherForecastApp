@@ -1,0 +1,52 @@
+<div class="main-container">
+  <header class="header-search">
+    <img src="./assets/back.png" srcset="img/icon@2x.png 2x, img/icon@3x.png 3x" class="icon-back" (click)="goHome()">
+    <div>
+      <input [ngModel]="searchInput" (ngModelChange)="valueChange($event)" type="text" placeholder="Your city name" class="search-input" >
+      <img src="./assets/icon.png" srcset="img/icon@2x.png 2x, img/icon@3x.png 3x" class="icon" (click)="search()">
+    </div>
+  </header>
+
+  <div class="forecast-info-container">
+    <div class="title-box">
+      <h1>Weather in {{this.forecastData.city.name}}, {{this.forecastData.city.country}}</h1>
+      <p>{{this.forecastData.list[0].dt_txt}}</p>
+    </div>
+    <div class="forecast-box">
+      <div class="temperature-info-box">
+        <div class="current-temperature-box">
+        <div class="temperature-txt-box">
+          <h2 class="temperature-txt-h2">{{this.fixTemp(this.forecastData.list[0].main.temp)}}ºC</h2>
+        </div>
+          <div class="temperature-icon-box">
+          <img src="https://openweathermap.org/img/w/{{this.forecastData.list[0].weather[0].icon}}.png" class="weather-icon">
+            <p class="forecast-description-text">{{this.forecastData.list[0].weather[0].description}}</p>
+          </div>
+        </div>
+        <div class="max-min-sun-box">
+          <div class="max-box">
+            <p class="label-txt">Máx</p>
+            <p class="max-txt">{{this.fixTemp(this.forecastData.list[0].main.temp_max)}}ºC</p>
+          </div>
+          <div class="min-box">
+            <p class="label-txt">Mín</p>
+            <p class="min-txt">{{this.fixTemp(this.forecastData.list[0].main.temp_min)}}ºC</p>
+          </div>
+          <div class="sunrise-box">
+            <p class="label-txt">Sunrise</p>
+
+          </div>
+          <div class="sunset-box">
+            <p class="label-txt">Sunset</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="five-day-forecast-box">
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
