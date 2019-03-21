@@ -7,18 +7,21 @@ import { HomeComponent } from './components/home/home.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import { CityCardComponent } from './components/city-card/city-card.component';
+import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CityCardComponent
+    CityCardComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    CommonModule
 
   ],
   providers: [],

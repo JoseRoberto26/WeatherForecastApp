@@ -1,18 +1,26 @@
 <div class="card-container">
   <div class="temperature-box">
-    <h1 class="temperature-txt">50</h1>
+    <h1 class="temperature-txt">{{fixTemp(this.temp)}} ºC</h1>
   </div>
   <div class="info-box">
     <div class="city-title">
-      <h1 class="city-title-text">Placeholder, PL</h1>
-      <img>
+      <h1 class="city-title-text">{{this.cityName}}</h1>
+      <img class="flag" src="http://openweathermap.org/images/flags/{{this.lowercase(this.countryCode)}}.png">
     </div>
     <div class="max-min-logo">
       <div class="max-min-box">
-
+        <div class="max-box">
+          <p class="max-min-text">Max: </p>
+          <p class="max-temp-text">{{fixTemp(this.maxTemp)}} ºC</p>
+        </div>
+        <div class="min-box">
+          <p class="max-min-text">Min: </p>
+          <p class="min-temp-text">{{fixTemp(this.minTemp)}} ºC</p>
+        </div>
       </div>
       <div class="weather-icon-box">
-
+        <img src="https://openweathermap.org/img/w/{{this.iconCode}}.png" class="weather-icon">
+        <p class="weather-text">{{this.weatherText}}</p>
       </div>
     </div>
   </div>

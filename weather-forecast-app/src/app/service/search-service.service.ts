@@ -14,7 +14,7 @@ export class SearchServiceService {
   constructor(private http:HttpClient) { }
 
   getCities(input): Observable<any>{
-    let finalUrl = baseUrl+input+'&appId='+appID;
+    let finalUrl = baseUrl+input+'&appId='+appID+'&units=metric';
     return this.http.get(finalUrl);
   }
 }
