@@ -7,6 +7,12 @@ WeatherForecastApp is an Angular application that uses OpenWeather Map API to se
 - Angular 7 
 - Bootstrap 4
 
+### To-do 
+- Usage of CSS advanced techniques 
+- Minor layout fixes 
+- Cleaner coding
+- HTML5 semantic elements 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
