@@ -152,6 +152,7 @@
   flex-direction: column;
   height: 80%;
   width: 100%;
+  overflow: scroll;
 }
 .forecast-table{
   display: flex;
