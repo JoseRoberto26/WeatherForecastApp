@@ -47,8 +47,8 @@
       <h2 class="five-day-title">5 day weather forecast</h2>
         <p class="five-day-p">every 3 hours</p>
         </div>
-        <div class="forecast-table">
-        <app-forecast-card *ngFor="let forecast of forecastData.list"
+        <div class="forecast-table" *ngIf="loaded">
+        <app-forecast-card *ngFor="let forecast of forecastData.list.slice(0,5)"
         [forecastDate]="forecast.dt_txt"
         [iconCode]="forecast.weather[0].icon"
         [forecastDescription]="forecast.weather[0].description"

@@ -16,6 +16,7 @@ export class DetailsComponent implements OnInit {
   private forecastData;
   public searchInput;
   private weatherData;
+  private loaded;
   month = [];
 
 
@@ -34,6 +35,7 @@ export class DetailsComponent implements OnInit {
 
     this.searchService.getForecast(this.cityId).subscribe(data => {
       this.forecastData = data;
+      this.loaded = true;
       this.searchInput = data.city.name;
     })
 
