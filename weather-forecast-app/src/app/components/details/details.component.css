@@ -50,7 +50,7 @@
 
 .forecast-box{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
@@ -74,6 +74,7 @@
   width: 90%;
   height: 80%;
   margin: auto;
+  margin-top: 40px;
 }
 .current-temperature-box{
   width: 30%;
@@ -145,4 +146,52 @@
 .min-txt{
   color: #4a90e2;
   margin-left: 109px;
+}
+.five-day-forecast-box{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+}
+.forecast-table{
+  display: flex;
+  flex-direction: column;
+}
+.header-title{
+  display: flex;
+  flex-direction: row;
+}
+.five-day-title{
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  color: #3c3c3c;
+  margin: 47px;
+}
+.five-day-p{
+  padding: 35px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: italic;
+  color: #3c3c3c;
+  margin: 16px;
+  margin-left: 0px;
+}
+.title-txt{
+  font-family: Roboto;
+  font-size: 36px;
+  text-align: center;
+  color: #3c3c3c;
+}
+.date-txt{
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #3c3c3c;
+}
+.sunrise-sunset-txt{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #3c3c3c;
+  margin-left: 88px;
 }

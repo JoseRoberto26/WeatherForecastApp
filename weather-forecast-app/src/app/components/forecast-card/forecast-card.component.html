@@ -1,0 +1,14 @@
+<div class="card-container">
+  <div class="date-box">
+    <h4 class="date-txt">{{this.fixDateFormat(this.forecastDate)}}</h4>
+    <p class="hours-txt">{{this.fixHoursFormat(this.forecastDate)}}</p>
+  </div>
+  <div class="forecast-box">
+     <img class="weather-icon" src="https://openweathermap.org/img/w/{{this.iconCode}}.png">
+    <p class="description-text">{{this.forecastDescription}}</p>
+  </div>
+  <div class="temp-box">
+    <p class="max-temp-txt">{{this.fixTemp(this.maxTemp)}}ºC</p>
+    <p class="min-temp-txt">{{this.fixTemp(this.minTemp)}}ºC</p>
+  </div>
+</div>

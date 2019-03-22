@@ -5,7 +5,8 @@ import {Observable} from "rxjs/index";
 
 const appID = '76d1b43ba3695cfae59aa9f7dc9b4877';
 const baseUrl = 'https://api.openweathermap.org/data/2.5/find?q=';
-const baseUrlForecast = 'https://api.openweathermap.org/data/2.5/forecast?id='
+const baseUrlForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=';
+const baseUrlWeather ='https://api.openweathermap.org/data/2.5/weather?id='
 
 @Injectable({
   providedIn: 'root'
@@ -21,6 +22,11 @@ export class SearchServiceService {
 
   getForecast(input): Observable<any>{
     let finalUrl = baseUrlForecast+input+'&appId='+appID+'&units=metric';
+    return this.http.get(finalUrl);
+  }
+
+  getWeather(id): Observable<any>{
+    let finalUrl = baseUrlWeather+id+'&appId='+appID+'&units=metric';
     return this.http.get(finalUrl);
   }
 }

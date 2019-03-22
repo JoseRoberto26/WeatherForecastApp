@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="78c9ba27-7260-4d78-9e4a-22ef58f08b11" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-forecast-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-forecast-app/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,29 +21,35 @@
       <file leaf-file-name="details.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+            <state relative-caret-position="374">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city-card.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.html">
+      <file leaf-file-name="forecast-card.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city-card.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.ts">
+      <file leaf-file-name="forecast-card.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="31" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="869">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forecast-card.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -55,8 +57,8 @@
       <file leaf-file-name="details.component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="376">
+              <caret line="191" column="20" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -64,11 +66,29 @@
       <file leaf-file-name="details.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+            <state relative-caret-position="461">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-service.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="city-card.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="72" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -77,25 +97,7 @@
         <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search-service.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="35" selection-end-column="3" />
+              <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -113,7 +115,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>str.substring(0, str.length - 1</find>
+      <find />
+      <find>wea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,6 +146,9 @@
         <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.ts" />
         <option value="$PROJECT_DIR$/weather-forecast-app/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.ts" />
+        <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.html" />
+        <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.css" />
         <option value="$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts" />
         <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts" />
         <option value="$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.html" />
@@ -176,6 +182,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,25 +223,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="city-card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WeatherForecastApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WeatherForecastApp" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-forecast-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="details" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WeatherForecastApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WeatherForecastApp" type="462c0819:PsiDirectoryNode" />
-              <item name="weather-forecast-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="forecast-card" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WeatherForecastApp" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,12 +318,13 @@
       <workItem from="1553009362470" duration="2054000" />
       <workItem from="1553046456041" duration="2091000" />
       <workItem from="1553053144023" duration="4848000" />
-      <workItem from="1553114532833" duration="21568000" />
+      <workItem from="1553114532833" duration="21824000" />
+      <workItem from="1553187261631" duration="8746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33696000" />
+    <option name="totallyTimeSpent" value="42698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -355,7 +344,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32317737" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -378,6 +367,75 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -518,20 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="76" lean-forward="true" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -539,44 +583,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="-15">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/city-card/city-card.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="357">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/service/search-service.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/forecast-card/forecast-card.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+        <state relative-caret-position="374">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather-forecast-app/src/app/components/details/details.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="376">
+          <caret line="191" column="20" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
         </state>
       </provider>
     </entry>

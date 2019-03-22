@@ -9,8 +9,8 @@
 
   <div class="forecast-info-container">
     <div class="title-box">
-      <h1>Weather in {{this.forecastData.city.name}}, {{this.forecastData.city.country}}</h1>
-      <p>{{this.forecastData.list[0].dt_txt}}</p>
+      <h1 class="title-txt">Weather in {{this.forecastData.city.name}}, {{this.forecastData.city.country}}</h1>
+      <p class="date-txt">{{this.fixDateAndTime(this.forecastData.list[0].dt_txt)}}</p>
     </div>
     <div class="forecast-box">
       <div class="temperature-info-box">
@@ -34,17 +34,29 @@
           </div>
           <div class="sunrise-box">
             <p class="label-txt">Sunrise</p>
-
+            <p class="sunrise-sunset-txt">{{this.weatherData.sys.sunrise * 1000 | date:'HH:mm'}}</p>
           </div>
           <div class="sunset-box">
             <p class="label-txt">Sunset</p>
-
+            <p class="sunrise-sunset-txt">{{this.weatherData.sys.sunset * 1000 | date:'HH:mm'}}</p>
           </div>
         </div>
       </div>
       <div class="five-day-forecast-box">
+        <div class="header-title">
+      <h2 class="five-day-title">5 day weather forecast</h2>
+        <p class="five-day-p">every 3 hours</p>
+        </div>
+        <div class="forecast-table">
+        <app-forecast-card *ngFor="let forecast of forecastData.list"
+        [forecastDate]="forecast.dt_txt"
+        [iconCode]="forecast.weather[0].icon"
+        [forecastDescription]="forecast.weather[0].description"
+        [maxTemp]="forecast.main.temp_max"
+        [minTemp]="forecast.main.temp_min" n></app-forecast-card>
 
-      </div>
+        </div>
+        </div>
     </div>
 
   </div>

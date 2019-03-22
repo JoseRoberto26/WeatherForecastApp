@@ -9,6 +9,7 @@ import {FormsModule} from "@angular/forms";
 import { CityCardComponent } from './components/city-card/city-card.component';
 import {CommonModule} from "@angular/common";
 import { DetailsComponent } from './components/details/details.component';
+import { ForecastCardComponent } from './components/forecast-card/forecast-card.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { DetailsComponent } from './components/details/details.component';
     HomeComponent,
     CityCardComponent,
     DetailsComponent,
+    ForecastCardComponent,
 
   ],
   imports: [
